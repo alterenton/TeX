@@ -1,4 +1,8 @@
-% Tamaños de letras predeterminadas segun comando
+%%% Fuentes conocidas %%%
+\usepackage{fontspec} % Requerido para fuentes personalizadas
+\usepackage{unicode-math} % Adicion para fuentes matematicas
+
+%%% Tamaños de letras predeterminadas %%%
 % | Comando         | Tamaño en 10pt | Tamaño en **11pt** | Tamaño en 12pt |
 % | --------------- | -------------- | ------------------ | -------------- |
 % | `\tiny`         | 5pt            | **6pt**            | 6pt            |
@@ -12,8 +16,27 @@
 % | `\huge`         | 20.74pt        | **20.74pt**        | 24.88pt        |
 % | `\Huge`         | 24.88pt        | **24.88pt**        | 24.88pt        |
 
-\usepackage{fontspec}
+\fontspec{Arial}
+% \setmainfont{Arimo}[
+%   Path = Configuraciones/Fuentes/,
+%   Extension = .ttf,
+%   UprightFont = *-Regular,
+%   ItalicFont = *-Italic,
+%   BoldFont = *-Bold,
+%   BoldItalicFont = *-BoldItalic,
+%   Scale = MatchUppercase,
+%   Ligatures = TeX
+% ]
+\setmainfont{Arial}[
+  Scale=MatchUppercase,
+  UprightFont=*,
+  ItalicFont=* Italic,
+  BoldFont=* Bold,
+  BoldItalic=* Bold Italic
+]
 
+
+\newfontfamily\fuentealternativa{TeXGyreAdventor}
 % Opciones de fuentes segun el paquete
 % TeXGyrePagella → Palatino (math)
 % TeXGyreTermes → Times New Roman (math)
@@ -23,13 +46,9 @@
 % TeXGyreHeros → Helvetica / Arial ()
 % TeXGyreAdventor → Avant Garde Gothic ()
 
-\setmainfont{TeXGyreAdventor}[
-    //Path = Configuraciones/Fuentes/, % Manejo de directorios
-    //Extension = .ttf, % Extension de fuentes
-    //UprightFont = *-Regular, % Sincroniza con el nombre del archivo de fuentes para regular
-    //ItalicFont = *-Italic, % Sincroniza con el nombre del archivo de fuentes para italicas
-    //BoldFont = *-Bold, % Sincroniza con el nombre del archivo de fuentes para negritas
-    //BoldItalicFont = *-BoldItalic, % Sincroniza con el nombre del archivo de fuentes para negritalicas
-    //Scale = MatchUppercase, % Encaja tamaños de letra
-    //Ligatures = TeX % Reemplaza caracteres especiales como unicode
-]
+\setmathfont{Cambria Math}
+% Adicionales fuentes matematicas
+% Garamond-Math
+% Asana-Math
+% Cambria Math
+% Latin Modern Math
