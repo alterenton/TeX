@@ -1,3 +1,35 @@
+% Tamaños de letras predeterminadas segun comando
+% | Comando         | Tamaño en 10pt | Tamaño en **11pt** | Tamaño en 12pt |
+% | --------------- | -------------- | ------------------ | -------------- |
+% | `\tiny`         | 5pt            | **6pt**            | 6pt            |
+% | `\scriptsize`   | 7pt            | **8pt**            | 8pt            |
+% | `\footnotesize` | 8pt            | **9pt**            | 10pt           |
+% | `\small`        | 9pt            | **10pt**           | 10.95pt        |
+% | `\normalsize`   | 10pt           | **11pt**           | 12pt           |
+% | `\large`        | 12pt           | **12pt**           | 14.4pt         |
+% | `\Large`        | 14.4pt         | **14.4pt**         | 17.28pt        |
+% | `\LARGE`        | 17.28pt        | **17.28pt**        | 20.74pt        |
+% | `\huge`         | 20.74pt        | **20.74pt**        | 24.88pt        |
+% | `\Huge`         | 24.88pt        | **24.88pt**        | 24.88pt        |
+
 \usepackage{fontspec}
 
-\setmainfont{Roboto}
+% Opciones de fuentes segun el paquete
+% TeXGyrePagella → Palatino
+% TeXGyreTermes → Times New Roman
+% TeXGyreChorus → Monotype Corsiva
+% TeXGyreBonum → Bookman Old Style
+% TeXGyreHeros → Helvetica / Arial
+% TeXGyreSchola → Century Schoolbook
+% TeXGyreAdventor → Avant Garde Gothic (similar a Arial Rounded / Futura)
+
+\setmainfont{TeXGyreAdventor}[
+    //Path = Configuraciones/Fuentes/, % Manejo de directorios
+    //Extension = .ttf, % Extension de fuentes
+    //UprightFont = *-Regular, % Sincroniza con el nombre del archivo de fuentes para regular
+    //ItalicFont = *-Italic, % Sincroniza con el nombre del archivo de fuentes para italicas
+    //BoldFont = *-Bold, % Sincroniza con el nombre del archivo de fuentes para negritas
+    //BoldItalicFont = *-BoldItalic, % Sincroniza con el nombre del archivo de fuentes para negritalicas
+    //Scale = MatchUppercase, % Encaja tamaños de letra
+    //Ligatures = TeX % Reemplaza caracteres especiales como unicode
+]
