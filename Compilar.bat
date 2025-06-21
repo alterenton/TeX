@@ -1,7 +1,7 @@
 @echo off
 
 REM ==== CONFIGURACIÓN ====
-set TEX_FILE=Principal.tex
+set TEX_FILE=Documentos\Principal.tex
 set OUT_DIR=Construccion
 set AUX_DIR=Auxiliares
 set JOB_NAME=MiTesis2025
