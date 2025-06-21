@@ -1,10 +1,10 @@
 @echo off
 
 REM ==== CONFIGURACIÓN ====
-set TEX_FILE=Documentos\Principal.tex
+set TEX_FILE=Documentos\basico.tex
 set OUT_DIR=Construccion
 set AUX_DIR=Auxiliares
-set JOB_NAME=MiTesis2025
+set JOB_NAME=NombreTrabajo
 
 REM ==== COMPILACIÓN (Primera pasada de LuaLaTeX) ====
 lualatex ^
