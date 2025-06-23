@@ -1,6 +1,6 @@
 # TeX
 ---
-# Tamaños de letra predeterminadas de las clases de documentos
+# Tamaños de letra
 ```markdown
 | Comando         | Tamaño en 10pt | Tamaño en **11pt** | Tamaño en 12pt |
 | --------------- | -------------- | ------------------ | -------------- |
