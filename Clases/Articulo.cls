@@ -1,7 +1,9 @@
-\NeedsTeXFormat{LaTeX2e}
+\NeedsTeXFormat{LaTeX2e} % Iniciacion de clase
 
-% Clase heredada
-\LoadClass{article}
+\LoadClass{article} % Clase base
 
-% Paquete de pruebas de texto aleatorio
-\RequirePackage{blindtext}
+\RequirePackage{amsmath} % Matematica
+\RequirePackage{blindtext} % Arreglos de parrafos aleatorios
+\RequirePackage[spanish]{babel} % Traducciones para el español
+\RequirePackage{silence} % Supresion de warnings
+\WarningsOff[blindtext]

@@ -1,7 +1,13 @@
 #!/bin/sh
 
-documento=Documentos/basico.tex
+obtener_directorios="$(pwd)"
+archivo_tex="${obtener_directorios}/../Documentos/Principal.tex"
+directorio_construccion="${obtener_directorios}/../Construccion/"
 
 for i in 1 2; do
-    lualatex --halt-on-error --interaction=nonstopmode --output-directory=Construccion ${documento}
+	lualatex \
+	--halt-on-error \
+	--interaction=nonstopmode \
+	--output-directory="${directorio_construccion}" \
+	"${archivo_tex}"
 done
