@@ -1,5 +1,6 @@
 # TeX
 ---
+# Inclusión de clase y paquete personalizado
 - \documentclass{../Clases/Articulo}
 - \usepackage{../Paquetes/Fuentes}
 ---
