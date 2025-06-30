@@ -1,7 +1,7 @@
 # TeX
 ---
-\documentclass{../Clases/Articulo}
-\usepackage{../Paquetes/Fuentes}
+- \documentclass{../Clases/Articulo}
+- \usepackage{../Paquetes/Fuentes}
 ---
 # Tamaños de letra
 ```markdown
