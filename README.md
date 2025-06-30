@@ -1,5 +1,8 @@
 # TeX
 ---
+\documentclass{../Clases/Articulo}
+\usepackage{../Paquetes/Fuentes}
+---
 # Tamaños de letra
 ```markdown
 | Comando         | Tamaño en 10pt | Tamaño en **11pt** | Tamaño en 12pt |
