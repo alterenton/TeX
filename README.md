@@ -20,3 +20,15 @@
 | `\Huge`         | 24.88pt        | **24.88pt**        | 24.88pt        |
 ```
 ---
+# Comparativa de metricas
+```markdown
+| Unidad | Equivale a                   |
+| ------ | ---------------------------- |
+| 1 in   | 2.54 cm = 25.4 mm            |
+| 1 cm   | 28.45 pt                     |
+| 1 mm   | 2.845 pt                     |
+| 1 pt   | 0.35146 mm                   |
+| 1 em   | ≈ ancho de letra "M" actual  |
+| 1 ex   | ≈ altura de letra "x" actual |
+```
+---
