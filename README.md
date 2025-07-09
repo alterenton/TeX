@@ -20,7 +20,7 @@
 | `\Huge`         | 24.88pt        | **24.88pt**        | 24.88pt        |
 ```
 ---
-# Comparativa de metricas
+# Comparativa de métricas
 ```markdown
 | Unidad | Equivale a                   |
 | ------ | ---------------------------- |
@@ -32,7 +32,7 @@
 | 1 ex   | ≈ altura de letra "x" actual |
 ```
 ---
-# Problematicas
+# Problemáticas
 - No usar la biblioteca matrix en los header o footer
 ```tex
 $\matrix[matrix of nodes] ($(e)!0.5!(g)$) {
