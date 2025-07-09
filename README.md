@@ -32,3 +32,12 @@
 | 1 ex   | ≈ altura de letra "x" actual |
 ```
 ---
+# Problematicas
+```tex
+$\matrix[matrix of nodes] ($(e)!0.5!(g)$) {
+  Mantenimiento preventivo del infraestructura Mecano basado en el sistema Pick To Light (PTL)\\
+  Brightcell CD Lurín\\
+  Informe Técnico Nº 007 - 2025\\
+};$
+```
+---
