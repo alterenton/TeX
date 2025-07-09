@@ -33,6 +33,7 @@
 ```
 ---
 # Problematicas
+- No usar la biblioteca matrix en los header o footer
 ```tex
 $\matrix[matrix of nodes] ($(e)!0.5!(g)$) {
   Mantenimiento preventivo del infraestructura Mecano basado en el sistema Pick To Light (PTL)\\
